@@ -17,7 +17,7 @@ function init() {
 init();
 window.addEventListener('resize', init);
 
-document.querySelector('.switcher').addEventListener('click', function () {
+document.querySelector('.inputs').addEventListener('click', function () {
     count++;
     if (count >= images.length) {
         count = 0;
